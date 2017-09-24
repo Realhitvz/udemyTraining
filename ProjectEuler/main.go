@@ -18,3 +18,5 @@ func main() {
   }
   fmt.Println("Sum:", total)
 }
+
+// Project Euler problem 2: Find the sum of all even fibbonaci numbers below 4,000,000
