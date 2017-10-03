@@ -14,3 +14,8 @@ func main() {
   fmt.Println(p1.first, p1.last, p1.age)
   fmt.Println(p2.first, p2.last, p2.age)
 }
+
+
+//can tag the fields of the struct with
+//`json:"-"` to change the name of an exported field
+//json handles exporting data to other applications
